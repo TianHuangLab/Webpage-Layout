@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<!-- In this case, instead of div, I'm going to use the nav HTML element; and instead of just having the description "header" in the nav class, I'm going to have a ul class with a class name "main-nav". Next,I'll add a li element that will have an anchor tag (link) -->
+  <nav class="zone green sticky">
+  	<ul class="main-nav">
+  	<!-- Layout: I want the navigation bar at the top and all the links at the top, and one all the way to the right that's pushed to the right edge, such as contacts. "li" element is for the navigation items-->
+	  	<li><a href="">About</a></li>
+	  	<li><a href="">Products</a></li>
+	  	<li><a href="">Our Team</a></li>
+	  	<li><a href="" class="push">Contacts</a></li>
+    </ul>
+  </nav>
+  <!-- I want to add a class "container" in cover to define some properties that will make this truly a cover page as the example shows. --> 
+  <!-- And if needed, we can remove the background color by deleting "red" in the class -->
+  <div class="container zone red">Cover!!!</div>
+  <!-- Then for the project grid, we use the class "grid-wrapper" -->
+  <div class="zone blue grid-wrapper">
+    <div class="box zone"><img src="./img/files.png"></div>
+    <div class="box zone"><img src="./img/storage.png"></div>
+    <div class="box zone"><img src="./img/desktop.png"></div>
+    <div class="box zone"><img src="./img/monitor.png"></div>
+    <div class="box zone"><img src="./img/monitor2.png"></div>
+    <div class="box zone"><img src="./img/server1.png"></div>
+    <div class="box zone"><img src="./img/server2.png"></div>
+    <div class="box zone"><img src="./img/server3.png"></div>
+    <div class="box zone"><img src="./img/undraw.png"></div>
+  </div>
+  <footer class="zone yellow">Footer</footer>
+</body>
+</html>
